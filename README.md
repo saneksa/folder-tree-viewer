@@ -1,7 +1,5 @@
 # Folder Tree Viewer
 
-## Overview
-
 Folder Tree Viewer is a Node.js utility that displays the structure of files and directories in a tree-like format in the command line interface.
 
 <a href="https://www.npmjs.com/package/folder-tree-viewer">
