@@ -1,0 +1,45 @@
+{
+  "name": "folder-tree-viewer",
+  "version": "1.0.0",
+  "author": "Alexandr Petyaykin",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "folder-tree-viewer": "dist/index.cjs"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "release": "standard-version && rollup -c",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-typescript": "11.1.6",
+    "commander": "^11.1.0",
+    "prettier": "3.1.1",
+    "rollup": "4.9.4",
+    "rollup-plugin-delete": "^2.0.0",
+    "standard-version": "9.5.0",
+    "tslib": "^2.6.2",
+    "typescript": "5.3.3"
+  },
+  "keywords": [
+    "Folder structure",
+    "Directory tree",
+    "Command line utility",
+    "File hierarchy",
+    "Node.js tool",
+    "File system viewer",
+    "Tree structure display",
+    "Directory listing",
+    "Path structure",
+    "Folder navigation"
+  ]
+}
