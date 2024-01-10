@@ -1,6 +1,6 @@
 {
   "name": "folder-tree-viewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexandr Petyaykin",
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
