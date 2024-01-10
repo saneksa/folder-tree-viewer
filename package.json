@@ -41,5 +41,9 @@
     "Directory listing",
     "Path structure",
     "Folder navigation"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saneksa/folder-tree-viewer.git"
+  }
 }
