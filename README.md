@@ -9,7 +9,7 @@ Folder Tree Viewer is a Node.js utility that displays the structure of files and
 ## Usage
 
 ```bash
-npx folder-tree-viewer /path/to/directory node_modules
+npx folder-tree-viewer <folder_path> [excluded_folders...]
 ```
 
 - `<folder_path>` is the path to the target folder.
